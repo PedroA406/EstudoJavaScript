@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title> Estudo Prova</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='inicio.css'>
+    
+    
+</head>
+<body>
+    
+<nav id="mae">
+    <a href="#"> INICIO</a>
+    <a href="#"> FUNCIONÁRIOS</a>
+    <a href="#"> SOBRE</a>
+    <a href="#"> CONTATO</a>
+    
+</nav>
+
+
+<section>
+    <fieldset>
+           <legend>
+               Mudar Foto
+           </legend>
+        <div>
+          
+            <select  id="lista">
+                <option value="sem foto" >Sem Foto</option>
+                <option value="moderno.jpg">Modero</option>
+                <option value="raiz.jpg">Raiz</option>
+                <option value="biruta.jpg">Biruta</option>
+            </select>
+   
+            <h1 id="legenda"> semfoto </h1>
+
+            <img src="#" id="imagem">
+        </div>
+   
+    
+  
+       </fieldset>
+   
+       
+   </section>
+
+<section>
+    <fieldset>
+        <legend>
+            Cálculo
+        </legend>
+        <div>
+<label> Digite o primeiro número:</label>
+<input type="number" id="n1">
+<hr >
+<label> Digite o segundo número:</label>
+<input type="number" id="n2">
+</div>
+
+
+
+<button onclick="clique()">+</button>
+
+<button onclick="clique2()">-</button>
+<button onclick="clique3()">x</button>
+<button onclick="clique4()">÷</button>
+<button onclick="clique5()">Fatorial</button>
+
+<h1 id="resultado"> ... </h1>
+    </fieldset>
+
+    
+</section>
+
+
+<section>
+ <fieldset>
+        <legend>
+            Impostos
+        </legend>
+     <div>
+        <label> Digite seu salário:</label>
+        <input type="number" id="salario">
+
+     </div>
+
+
+
+<button onclick="calcular()"> Calcular</button>
+
+<h1 id="liquido"> ... </h1>
+    </fieldset>
+
+    
+</section>
+
+
+<script src='calculo.js'></script>
+<script src='foto.js'></script>
+
+</body>
+</html>
